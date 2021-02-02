@@ -25,7 +25,9 @@ SECRET_KEY = 'ark$(=gxtku0^q6ton!91p16)zthucxce7(5*2n367fo2i53f)'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = bool (int(os.environ.get('DEBUG', 1)))
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['ec2-54-207-22-18.sa-east-1.compute.amazonaws.com', 
+'127.0.0.1'
+]
 
 
 # Application definition
